@@ -1,62 +1,50 @@
 # Beer Finder
 
 Congratulations, you discovered Beer Finder this app allows users to do the following:
--Find breweries associated with a beer name
--Find average ratings and reviews of a beer
--Write personal reviews and ratings for individual beers
--Update reviews
--Delete reviews 
+
+1. Find breweries associated with a beer name
+2. Find average ratings and reviews of a beer
+3. Write personal reviews and ratings for individual beers
+4. Update reviews
+5. Delete reviews  
+
 
 ## Installation
 
 ### 
 
-1. Fork the respository from Git Hub
-2. You should have at minimum three models including one join model. This means you must have a many-to-many relationship.
-3. You should seed your database using data that you collect either from a CSV, a website by scraping, or an API.
-4. Your models should have methods that answer interesting questions about the data. For example, if you've collected info about movie reviews, what is the most popular movie? What movie has the most reviews?
-5. You should provide a CLI to display the return values of your interesting methods.  
-6. Use good OO design patterns. You should have separate classes for your models and CLI interface.
+1. Fork the respository from Git Hub (git@github.com:matthewsedlacek/ruby-project-guidelines-sea01-seng-ft-042020.git)
+2. To start Beer Finder type 'ruby bin/run.rb'
 
-  **Resource:** [Easy Access APIs](https://github.com/learn-co-curriculum/easy-access-apis)
 
-### Option Two - Command Line CRUD App
+### Contributions
 
-1. Access a Sqlite3 Database using ActiveRecord.
-2. You should have a minimum of three models.
-3. You should build out a CLI to give your user full CRUD ability for at least one of your resources. For example, build out a command line To-Do list. A user should be able to create a new to-do, see all todos, update a todo item, and delete a todo. Todos can be grouped into categories, so that a to-do has many categories and categories have many to-dos.
-4. Use good OO design patterns. You should have separate classes for your models and CLI interface.
+This app was created by Trevor Low and Matthew Sedlacek
+Special thank to the creators of the following Ruby Gems
+- gem "sinatra-activerecord"
+- gem "sqlite3"
+- gem "pry"
+- gem "require_all"
+- gem "faker"
+- gem "rest-client", "~> 2.1"
+- gem "json"
+- gem 'ascii', '~> 1.0', '>= 1.0.1'
+- gem 'artii', '~> 2.1', '>= 2.1.2'
+- gem 'colorize', '~> 0.8.1'
 
-### Brainstorming and Proposing a Project Idea
 
-Projects need to be approved prior to launching into them, so take some time to brainstorm project options that will fulfill the requirements above.  You must have a minimum of four [user stories](https://en.wikipedia.org/wiki/User_story) to help explain how a user will interact with your app.  A user story should follow the general structure of `"As a <role>, I want <goal/desire> so that <benefit>"`. In example, if we were creating an app to randomly choose nearby restaurants on Yelp, we might write:
+### Licensing 
 
-* As a user, I want to be able to enter my name to retrieve my records
-* As a user, I want to enter a location and be given a random nearby restaurant suggestion
-* As a user, I should be able to reject a suggestion and not see that restaurant suggestion again
-* As a user, I want to be able to save to and retrieve a list of favorite restaurant suggestions
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
 
-## Instructions
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
 
-1. Fork and clone this repository.
-2. Build your application. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable.
-3. Make sure to create a good README.md with a short description, install instructions, a contributors guide and a link to the license for your code.
-4. Make sure your project checks off each of the above requirements.
-5. Prepare a video demo (narration helps!) describing how a user would interact with your working project.
-    * The video should:
-      - Have an overview of your project.(2 minutes max)
-6. Prepare a presentation to follow your video.(3 minutes max)
-    * Your presentation should:
-      - Describe something you struggled to build, and show us how you ultimately implemented it in your code.
-      - Discuss 3 things you learned in the process of working on this project.
-      - Address, if anything, what you would change or add to what you have today?
-      - Present any code you would like to highlight.   
-7. *OPTIONAL, BUT RECOMMENDED*: Write a blog post about the project and process.
-
----
-### Common Questions:
-- How do I turn off my SQL logger?
-```ruby
-# in config/environment.rb add this line:
-ActiveRecord::Base.logger = nil
-```
+  For a copy of the GNU General Public License along write to the Free 
+  Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 
+  02110-1301 USA.
