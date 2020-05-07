@@ -10,7 +10,10 @@ ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'db/develo
 require_all 'lib'
 require_all 'app'
 require 'faker'
-
+require 'ascii'
+require 'artii'
+require 'colorize'
+require 'colorized_string'
 
 # class GetBeers
 #     URL = "https://untappd.com/oauth/authenticate/?client_id=CLIENTID&response_type=code&redirect_url=REDIRECT_URL"

@@ -11,8 +11,6 @@ Brewery.destroy_all
           })
 end
 
-
-
 50.times do
      Brewery.create({
           brewery_name: Faker::Beer.brand
