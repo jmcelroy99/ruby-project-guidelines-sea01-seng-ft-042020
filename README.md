@@ -19,8 +19,8 @@ Congratulations, you discovered Beer Finder this app allows users to do the foll
 
 ### Contributions
 
-This app was created by Trevor Low and Matthew Sedlacek
-Special thank to the creators of the following Ruby Gems
+This app was created by Trevor Low and Matthew Sedlacek.
+Special thanks to the creators of the following Ruby Gems.
 - gem "sinatra-activerecord"
 - gem "sqlite3"
 - gem "pry"
