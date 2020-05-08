@@ -35,7 +35,11 @@ Special thanks to the creators of the following Ruby Gems.
 
 ### How to Use
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YAVMf1-F5cA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="https://www.youtube.com/embed/YAVMf1-F5cA" type="video/mp4">
+  </video>
+</figure>
 
 
 ### Licensing 
