@@ -35,6 +35,9 @@ Special thanks to the creators of the following Ruby Gems.
 
 ### How to Use
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YAVMf1-F5cA
+" target="_blank"><img src="http://img.youtube.com/vi/YYAVMf1-F5cA/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 [![IMAGE ALT TEXT HERE](https://images.app.goo.gl/ucvCgTEbd2yonchw6)](https://www.youtube.com/embed/YAVMf1-F5cA)
 
