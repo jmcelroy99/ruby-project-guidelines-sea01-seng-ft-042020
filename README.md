@@ -35,11 +35,14 @@ Special thanks to the creators of the following Ruby Gems.
 
 ### How to Use
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="https://www.youtube.com/embed/YAVMf1-F5cA" type="video/mp4">
-  </video>
-</figure>
+
+<object width="425" height="350">
+  <param name="movie" value="https://www.youtube.com/embed/YAVMf1-F5cA" />
+  <param name="wmode" value="transparent" />
+  <embed src="https://www.youtube.com/embed/YAVMf1-F5cA"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
 
 
 ### Licensing 
