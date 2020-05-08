@@ -28,7 +28,7 @@ class CommandLineInterface
         else
             puts "Username does not exist. Please create username".colorize(:yellow)
             new_user = gets.chomp
-            User.create(username: new_user)
+            User.find_or_create_by(username: new_user)
             user_login
         end
     end

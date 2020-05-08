@@ -33,6 +33,12 @@ Special thanks to the creators of the following Ruby Gems.
 - gem 'colorize', '~> 0.8.1'
 
 
+### How to Use
+
+<video width="320" height="240" controls>
+  <source src="zoom_0.mp4" type="video/mp4">
+</video>
+
 ### Licensing 
 
   This program is free software; you can redistribute it and/or modify
