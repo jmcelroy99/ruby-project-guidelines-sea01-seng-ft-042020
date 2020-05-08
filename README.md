@@ -35,9 +35,8 @@ Special thanks to the creators of the following Ruby Gems.
 
 ### How to Use
 
-<video width="320" height="240" controls>
-  <source src="zoom_0.mp4" type="video/mp4">
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YAVMf1-F5cA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Licensing 
 
