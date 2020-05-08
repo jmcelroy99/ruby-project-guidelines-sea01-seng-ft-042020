@@ -36,7 +36,7 @@ Special thanks to the creators of the following Ruby Gems.
 ### How to Use
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/https://www.youtube.com/embed/YAVMf1-F5cA.jpg)](https://www.youtube.com/embed/YAVMf1-F5cA)
+[![IMAGE ALT TEXT HERE](https://images.app.goo.gl/ucvCgTEbd2yonchw6)](https://www.youtube.com/embed/YAVMf1-F5cA)
 
 
 ### Licensing 
